@@ -1,0 +1,14 @@
+{
+  "name": "fivem-bot",
+  "version": "1.0.0",
+  "description": "Hello i created this bot for people who wants to create a fivem server. I programmed\r all the things you need in a discord bot for a fivem server.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}

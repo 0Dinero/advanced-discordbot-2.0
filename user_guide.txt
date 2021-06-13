@@ -1,0 +1,29 @@
+Hello i created this bot for people who would like to run a fivem-server
+i looked at what you need for a fivem-server discord and i addded it all in one
+
+REMEMBER TO ADD THE BOT BEFORE PEOPLE JOIN THE DISCORD SERVER OR ELSE THE WARNING-SYSTEM WILL CRASH
+----------------------------------------------------------------
+COMPLETE USER GUIDE
+----------------------------------------------------------------
+1 - start by downloading node.js at https://nodejs.org/en/ and pick the current download
+2 - setup the "config.json" by follow the steps
+3 - to create a token head to "https://discord.com/developers/applications" and create an application
+4 - when you have created your applicaton head into the "bot" section and press "add bot"
+5 - turn on "PRESENCE INTENT" and "SERVER MEMBERS INTENT"
+6 - press the "copy" button and insert the copied text into the "config.json" at the "token"
+7 - select your prefix for the bot 
+8 - enter the "ip" of your server in the ip section.
+9 - enter the name of the channel you want the logs to head over to 
+10 - enter the name of the rank you want people to get when they join the server
+11 - create and invite link to your bot by watching this video: "https://www.youtube.com/watch?v=ypSSUTuh6SQ"
+12 - press the "start.bat" and then your bot should go online
+//IF YOUR BOT DIDNT GO ONLINE THEN YOU FOLLOWED THE STEPS WRONG//
+----------------------------------------------------------------
+LIST OF COMMANDS
+----------------------------------------------------------------
+(prefix)connect = shows the connect ip to users.
+(prefix)cleanup = deletes the last 10 messages.
+(prefix)ban @user = bans the mentioned user
+(prefix)kick @user = kicks the mentioned user
+(prefix)warn @user broke rule 5 = warns the mentioned user and saves the warn reason in the database
+(prefix)wdata @user = gives you a list of the mentioned user warnings

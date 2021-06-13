@@ -1,0 +1,7 @@
+{
+    "token": "your_token",
+    "prefix": "your_prefix",
+    "ip": "your_server_ip",
+    "botlog": "discord_channel",
+    "joinrank": "join_rank"
+}
